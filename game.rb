@@ -74,8 +74,8 @@ class Game < Gosu::Window
     when Gosu::KbDown
       @player.move_down = true
 
-    # when Gosu::KbEsc
-    #   close
+    when Gosu::KbEscape
+      close
     end
   end
 
